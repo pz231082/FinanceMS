@@ -1,0 +1,43 @@
+
+.summary-card {
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    max-width: 400px;
+    text-align: center;
+  }
+  
+  
+  .summary-card h3 {
+
+    color: #333;
+    font-weight: 600;
+    margin: 0;
+    padding: 10px 0;
+  }
+  
+  
+  .summary-card h3 {
+    font-size: 2rem;
+    color: #27ae60; 
+  }
+
+  h3{
+    text-align: center;
+    font-size: 25px;
+  }
+  
+ 
+  @media (max-width: 600px) {
+    .summary-card {
+      width: 90%;
+      padding: 15px;
+    }
+  
+    .summary-card h3 {
+      font-size: 1.6rem;
+    }
+  }
+  

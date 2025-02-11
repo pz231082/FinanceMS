@@ -1,0 +1,49 @@
+/* src/Navbar.css */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #333;
+    padding: 10px 20px;
+    color: white;
+  }
+  
+  .navbar .logo h1 {
+    margin: 0;
+    font-size: 24px;
+    font-weight: bold;
+  }
+  
+  .nav-links {
+    display: flex;
+    align-items: center;
+  }
+  
+  .nav-links .nav-item {
+    margin: 0 20px;
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+    transition: color 0.3s;
+  }
+  
+  .nav-links .nav-item:hover {
+    color: #f39c12; /* Change color on hover */
+  }
+  
+  .auth-button {
+    background-color: #065c63;
+    border: none;
+    color: white;
+    padding: 10px 15px;
+    margin-left: 10px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+  }
+  
+  .auth-button:hover {
+    background-color: #038a9c;
+  }
+  

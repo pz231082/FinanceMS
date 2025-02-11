@@ -1,0 +1,14 @@
+body{
+    background-color: #E2E8f0;
+    color: #334155
+}
+
+.mainDiv h1{
+    text-align: center;
+    font-size: 28px;
+    margin-top: 4px;
+}
+
+.footer-container{
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
